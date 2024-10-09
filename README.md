@@ -20,27 +20,29 @@ The Redmine Notification App is a desktop application that provides instant noti
 
 1. Clone the repository:
 
-   \`\`\`bash
+``` bash
    git clone https://github.com/yourusername/redmine-notification-app.git
-   \`\`\`
+```
 
 2. Navigate into the project directory:
 
-   \`\`\`bash
+```bash
    cd redmine-notification-app
-   \`\`\`
+  ```
+3. Extract the zip file inside of the folder 
 
-3. Install the required dependencies:
 
-   \`\`\`bash
+4. Install the required dependencies:
+
+```bash
    npm install
-   \`\`\`
+```
 
-4. Run the application:
+5. Run the application:
 
-   \`\`\`bash
+```bash
    npm start
-   \`\`\`
+ ```
 
 ## Steps to Set Up the Redmine Notification App
 
@@ -76,9 +78,9 @@ The Redmine Notification App is a desktop application that provides instant noti
 
 To build the app for production:
 
-\`\`\`bash
+```bash 
 npm run build
-\`\`\`
+```
 
 This will generate the necessary files for deployment.
 
@@ -86,9 +88,10 @@ This will generate the necessary files for deployment.
 
 To package the app for use as a desktop application:
 
-\`\`\`bash
+
+```bash 
 npm run package
-\`\`\`
+```
 
 This will bundle the app into a format that can be distributed and installed on both 32-bit and 64-bit systems.
 
